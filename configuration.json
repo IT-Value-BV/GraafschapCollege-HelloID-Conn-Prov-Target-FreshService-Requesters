@@ -1,0 +1,24 @@
+[
+  {
+    "key": "TenantURL",
+    "type": "input",
+    "defaultValue": "",
+    "templateOptions": {
+      "label": "FreshService domain",
+      "placeholder": "https://domain.freshservice.com",
+      "description": "The freshservice tenant URL",
+      "required": true
+    }
+  },
+  {
+    "key": "APIKey",
+    "type": "input",
+    "defaultValue": "",
+    "templateOptions": {
+      "type": "password",
+      "label": "API Key",
+      "description": "Te freshservice operator API key",
+      "required": true
+    }
+  }
+]
