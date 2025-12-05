@@ -23,9 +23,9 @@ Deze repository bevat alles om te koppelen met het **FreshService** vanuit Hello
 2. Log in met de eerste agent, de tenant eigenaar
 2. Selecteer de agent waar je nu mee bent ingelogd
 3. Schakel het gebruik van API keys in
-![Assets/FreshService-Enable-API.png]
+![FreshService Enable API](Assets/FreshService-Enable-API.png)
 4. Navigeer naar de profiel instellingen van je account
-![Assets/FreshService-Profile-Settings.png]
+![FreshService Profile Settings](Assets/FreshService-Profile-Settings.png)
 5. Kopieer de API key, deze heb je later nodig in HelloID
 ![FreshService API key](Assets/FreshService-API-Key.png)
 
