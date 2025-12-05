@@ -27,7 +27,7 @@ Deze repository bevat alles om te koppelen met het **FreshService** vanuit Hello
 4. Navigeer naar de profiel instellingen van je account
 [Assets/FreshService-Profile-Settings.png]
 5. Kopieer de API key, deze heb je later nodig in HelloID
-[Assets/FreshService-API-Key.png]
+[FreshService API key](Assets/FreshService-API-Key.png)
 
 ---
 
@@ -59,15 +59,15 @@ Deze repository bevat alles om te koppelen met het **FreshService** vanuit Hello
 8. Verwijder de huidige fieldmapping door op de knop **Delete all** te klikken
 9. Klik op import en voeg het bestand **fieldMapping.json** toe
 10. Bewerk de fieldmapping voor het veld **primary_email**
-[Assets/HelloID-Complex-Mapping.png]
+[HelloID Complex mapping](Assets/HelloID-Complex-Mapping.png)
 11. Typ hier handmatig het variabele **Person.Accounts.MicrosoftActiveDirectory.mail**
 12. Selecteer een persoon en klik op preview om te valideren dat het werkt, sla de configuratie op
 13. Ga naar het tabblad **Configuration**
 14. Vul de gegevens in van de FreshService omgeving en klik op **Apply**
-[Assets/HelloID-Configuration.png]
+[HelloID Configuration](Assets/HelloID-Configuration.png)
 15. Ga naar het tabblad **Correlation**
 16. Configureerd de correlatie als volgt:
-[Assets/HelloID-Correlation.png]
+[HelloID Correlation](Assets/HelloID-Correlation.png)
 
 ---
 
@@ -77,14 +77,14 @@ Deze repository bevat alles om te koppelen met het **FreshService** vanuit Hello
 2. Open het **Account create** script
 3. Selecteer een persoon en klik op **Preview**
 4. Als alles goed ingericht is weergeeft de logging de onderstaande melding
-[Assets/HelloID-Preview.png]
+[HelloID Preview](Assets/HelloID-Preview.png)
 
 ---
 
 ### **Configureren thresholds**  
 *Thresholds voorkomen onverwachte acties als er een fout voorgekomen is in HelloID of een externe API.*  
 Stel thresholds in op het tabblad **Thresholds**:  
-[Assets/HelloID-Thresholds.png]
+[HelloID Thresholds](Assets/HelloID-Thresholds.png)
 
 ---
 
