@@ -107,9 +107,25 @@ Stel thresholds in op het tabblad **Thresholds**:
 3. Voeg de entitlements voor FreshService toe en publiceer deze
    - `Account`  
    - `Account Access` 
+
+Zie onderstaande voorbeelden.
+
+[HelloID BR1](Assets/HelloID-BR1.png)
+
+[HelloID BR2](Assets/HelloID-BR2.png)
+
 4. Om de configuratie actief te maken navigeer je naar **Business -> Evaluations**
 5. Klik rechtsbovenin op **Enforce** om de acties uit te laten voeren
 
+Vanaf nu heb je HelloID volledig geconfigureerd. Op basis van de brongegevens worden accounts aangemaakt in AD en FreshService. 
+
 ---
 
-Vanaf nu heb je HelloID volledig geconfigureerd. Op basis van de brongegevens worden accounts aangemaakt in AD en FreshService. 
+## Volgende stappen
+Gebruik de volgende informatie om de HelloID configuratie af te ronden.
+
+4. Configureren Business Rules
+- [Business rules](https://www.tools4ever.nl/blog/2023/business-rules/)
+
+5. Configureren notificaties en thresholds
+- [Notificaties en thresholds](https://www.tools4ever.nl/blog/2023/notificaties-en-thresholds/)
