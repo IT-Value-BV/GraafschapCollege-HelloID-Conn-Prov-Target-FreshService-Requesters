@@ -23,15 +23,10 @@ Deze repository bevat alles om te koppelen met het **FreshService** vanuit Hello
 2. Log in met de eerste agent, de tenant eigenaar
 2. Selecteer de agent waar je nu mee bent ingelogd
 3. Schakel het gebruik van API keys in
-
 ![Assets/FreshService-Enable-API.png]
-
 4. Navigeer naar de profiel instellingen van je account
-
 ![Assets/FreshService-Profile-Settings.png]
-
 5. Kopieer de API key, deze heb je later nodig in HelloID
-
 ![FreshService API key](Assets/FreshService-API-Key.png)
 
 ---
@@ -64,19 +59,14 @@ Deze repository bevat alles om te koppelen met het **FreshService** vanuit Hello
 8. Verwijder de huidige fieldmapping door op de knop **Delete all** te klikken
 9. Klik op import en voeg het bestand **fieldMapping.json** toe
 10. Bewerk de fieldmapping voor het veld **primary_email**
-
 ![HelloID Complex mapping](Assets/HelloID-Complex-Mapping.png)
-
 11. Typ hier handmatig het variabele **Person.Accounts.MicrosoftActiveDirectory.mail**
 12. Selecteer een persoon en klik op preview om te valideren dat het werkt, sla de configuratie op
 13. Ga naar het tabblad **Configuration**
 14. Vul de gegevens in van de FreshService omgeving en klik op **Apply**
-
 ![HelloID Configuration](Assets/HelloID-Configuration.png)
-
 15. Ga naar het tabblad **Correlation**
 16. Configureerd de correlatie als volgt:
-
 ![HelloID Correlation](Assets/HelloID-Correlation.png)
 
 ---
@@ -87,7 +77,6 @@ Deze repository bevat alles om te koppelen met het **FreshService** vanuit Hello
 2. Open het **Account create** script
 3. Selecteer een persoon en klik op **Preview**
 4. Als alles goed ingericht is weergeeft de logging de onderstaande melding
-
 ![HelloID Preview](Assets/HelloID-Preview.png)
 
 ---
@@ -95,7 +84,6 @@ Deze repository bevat alles om te koppelen met het **FreshService** vanuit Hello
 ### **Configureren thresholds**  
 *Thresholds voorkomen onverwachte acties als er een fout voorgekomen is in HelloID of een externe API.*  
 Stel thresholds in op het tabblad **Thresholds**:  
-
 ![HelloID Thresholds](Assets/HelloID-Thresholds.png)
 
 ---
@@ -107,13 +95,9 @@ Stel thresholds in op het tabblad **Thresholds**:
 3. Voeg de entitlements voor FreshService toe en publiceer deze
    - `Account`  
    - `Account Access` 
-
 Zie onderstaande voorbeelden.
-
 [HelloID BR1](Assets/HelloID-BR1.png)
-
 [HelloID BR2](Assets/HelloID-BR2.png)
-
 4. Om de configuratie actief te maken navigeer je naar **Business -> Evaluations**
 5. Klik rechtsbovenin op **Enforce** om de acties uit te laten voeren
 
