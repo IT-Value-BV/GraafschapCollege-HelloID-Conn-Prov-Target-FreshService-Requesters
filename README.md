@@ -32,7 +32,6 @@ Deze repository bevat alles om te koppelen met het **FreshService** vanuit Hello
 
 ---
 
-
 ### **Aanmaken doelsysteem**
 1. Ga naar het HelloID Provisioning administrator portaal:  
    `https://gc-bedrijfsnaam.helloid.training/provisioning`
