@@ -80,7 +80,7 @@
             "Update"
           ],
           "MappingMode": "Complex",
-          "Value": "\"Person.Accounts._be664ddd44724c09a94cb3e1af75eb9b.mail\"",
+          "Value": "\"// Typ hieronder handmatig Person.Accounts._be664ddd44724c09a94cb3e1af75eb9b.mail\\r\\n// Selecteer een persoon en klik op preview om te valideren dat het email adres gevuld wordt\"",
           "UsedInNotifications": false,
           "StoreInAccountData": false
         }
