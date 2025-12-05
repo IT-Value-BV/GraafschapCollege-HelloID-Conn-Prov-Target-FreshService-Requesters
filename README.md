@@ -27,6 +27,7 @@ Deze repository bevat alles om te koppelen met het **FreshService** vanuit Hello
 4. Navigeer naar de profiel instellingen van je account
 ![FreshService Profile Settings](Assets/FreshService-Profile-Settings.png)
 5. Kopieer de API key, deze heb je later nodig in HelloID
+
 ![FreshService API key](Assets/FreshService-API-Key.png)
 
 ---
