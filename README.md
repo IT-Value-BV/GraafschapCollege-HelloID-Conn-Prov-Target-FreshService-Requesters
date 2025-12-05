@@ -13,7 +13,7 @@ Deze repository bevat alles om te koppelen met het **FreshService** vanuit Hello
 ---
 
 ### **Voorbereidingen FreshService** 
-*Om te kunnen verbinden met een FreshService omgeving moet er een agent aangemaakt worden die gebruik mag maken van de API*
+*Om te kunnen verbinden met een FreshService omgeving moet er een API key aangemaakt worden*
 
 > [!TIP]
 > Onderstaande instructie beschrijft de stappen om gebruik te maken van de API onder de tenant eigenaar agent. Het is best-practice om hier een specifiek account voor aan te maken dat niet bedoeld is voor regulier gebruik. 
@@ -23,11 +23,11 @@ Deze repository bevat alles om te koppelen met het **FreshService** vanuit Hello
 2. Log in met de eerste agent, de tenant eigenaar
 2. Selecteer de agent waar je nu mee bent ingelogd
 3. Schakel het gebruik van API keys in
-[FreshService-Enable-API.png]
+[Assets/FreshService-Enable-API.png]
 4. Navigeer naar de profiel instellingen van je account
-[FreshService-Profile-Settings.png]
+[Assets/FreshService-Profile-Settings.png]
 5. Kopieer de API key, deze heb je later nodig in HelloID
-[FreshService-API-Key.png]
+[Assets/FreshService-API-Key.png]
 
 ---
 
@@ -59,15 +59,15 @@ Deze repository bevat alles om te koppelen met het **FreshService** vanuit Hello
 8. Verwijder de huidige fieldmapping door op de knop **Delete all** te klikken
 9. Klik op import en voeg het bestand **fieldMapping.json** toe
 10. Bewerk de fieldmapping voor het veld **primary_email**
-[HelloID-Complex-Mapping.png]
+[Assets/HelloID-Complex-Mapping.png]
 11. Typ hier handmatig het variabele **Person.Accounts.MicrosoftActiveDirectory.mail**
 12. Selecteer een persoon en klik op preview om te valideren dat het werkt, sla de configuratie op
 13. Ga naar het tabblad **Configuration**
 14. Vul de gegevens in van de FreshService omgeving en klik op **Apply**
-[HelloID-Configuration.png]
+[Assets/HelloID-Configuration.png]
 15. Ga naar het tabblad **Correlation**
 16. Configureerd de correlatie als volgt:
-[HelloID-Correlation.png]
+[Assets/HelloID-Correlation.png]
 
 ---
 
@@ -77,14 +77,14 @@ Deze repository bevat alles om te koppelen met het **FreshService** vanuit Hello
 2. Open het **Account create** script
 3. Selecteer een persoon en klik op **Preview**
 4. Als alles goed ingericht is weergeeft de logging de onderstaande melding
-[HelloID-Preview.png]
+[Assets/HelloID-Preview.png]
 
 ---
 
 ### **Configureren thresholds**  
 *Thresholds voorkomen onverwachte acties als er een fout voorgekomen is in HelloID of een externe API.*  
 Stel thresholds in op het tabblad **Thresholds**:  
-[HelloID-Thresholds.png]
+[Assets/HelloID-Thresholds.png]
 
 ---
 
