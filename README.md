@@ -108,8 +108,8 @@ Vanaf nu heb je HelloID volledig geconfigureerd. Op basis van de brongegevens wo
 ## Volgende stappen
 Gebruik de volgende informatie om de HelloID configuratie af te ronden.
 
-4. Configureren Business Rules
+3. Configureren Business Rules
 - [Business rules](https://www.tools4ever.nl/blog/2023/business-rules/)
 
-5. Configureren notificaties en thresholds
+4. Configureren notificaties en thresholds
 - [Notificaties en thresholds](https://www.tools4ever.nl/blog/2023/notificaties-en-thresholds/)
